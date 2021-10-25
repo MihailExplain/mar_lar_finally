@@ -17,7 +17,7 @@
                 <label for="task" class="col-sm-3 control-label">Задача</label>
 
                 <div class="col-sm-6">
-                    <input type="text" name="name" id="task" class="form-control">
+                    <input type="text" name="name" id="task" value="{{old('name')}}" class="form-control">
                 </div>
             </div>
 
@@ -32,5 +32,4 @@
         </form>
     </div>
 
-    <!-- TODO: Текущие задачи -->
 @endsection
