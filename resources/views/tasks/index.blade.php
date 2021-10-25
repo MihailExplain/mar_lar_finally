@@ -11,6 +11,6 @@
     <!-- Форма новой задачи -->
 
     </div>
-
+    <a href="{{route('tasks.create')}}" class="btn btn-success"><i class="fa fa-plus"></i> Creat new task</a>
     <!-- TODO: Текущие задачи -->
 @endsection
